@@ -63,8 +63,8 @@ def main():
                 st.write(saludar(nombre))
 
         case "suma":
-            n1 = st.number_input("NUMERO 1:", step=1)
-            n2 = st.number_input("NUMERO 2:", step=1)
+            n1 = st.number_input("NUMERO 1:", step=1.0)
+            n2 = st.number_input("NUMERO 2:", step=1.0)
             if st.button("Sumar"):
                 st.write(f"la suma es: {sumar(n1, n2)}")
 
