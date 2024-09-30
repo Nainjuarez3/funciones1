@@ -1,26 +1,34 @@
-# funciones1
-programa de funciones
-El proyecto consiste en un tablero interactivo hecho con Streamlit que incluye diversas funciones matemáticas y de procesamiento de datos. El puede interactuar con el tablero para realizar operaciones como suma de usuario, cálculo de áreas, manipulación de listas, entre otras, mediante una interfaz gráfica simple.
+#funciones1 JUAREZ AGUILAR NAIN APOLINAR
+Este proyecto es un tablero interactivo desarrollado con **Streamlit**, que permite realizar varias operaciones matemáticas y de procesamiento de datos de manera intuitiva. Los usuarios pueden ingresar datos y obtener resultados en tiempo real a través de una interfaz gráfica amigable.
 
-Funciones implementadas:
-Saludar :
+## Funcionalidades
 
-Muestra un saludo personalizado al ingresar un nombre.
-Suma de dos números :
+1. **Saludo**  
+   Muestra un saludo personalizado al ingresar un nombre.
 
-Suma dos números ingresados ​​y muestra el resultado.
-Área de un triángulo :
+2. **Suma de dos números**  
+   Suma dos números ingresados y muestra el resultado en pantalla.
 
-Calcula el área de un triángulo a partir de la base y la altura ingresadas.
-Calculadora de descuento :
+3. **Área de un triángulo**  
+   Calcula el área de un triángulo a partir de los valores de base y altura proporcionados.
 
-Calcula el precio final de un producto aplicando un descuento del 20% y un impuesto del 16%.
-Suma de una lista :
+4. **Calculadora de descuento**  
+   Calcula el precio final de un producto después de aplicar un 20% de descuento y un impuesto del 16%.
 
-Recibe una lista de números y devuelve la suma de todos ellos.
-Costo de un producto :
+5. **Suma de una lista**  
+   Recibe una lista de números y devuelve la suma total de todos los elementos.
 
-Calcula el costo total de un producto según la cantidad y precio por unidad.
-Separación de números pares e impares :
+6. **Costo de un producto**  
+   Calcula el costo total de un producto en función de la cantidad y el precio por unidad.
 
-Recibe una lista de números y los separa
+7. **Separación de números pares e impares**  
+   Toma una lista de números y los separa en dos listas: una para los números pares y otra para los impares.
+
+8. **Multiplicación con `*args`**  
+   Multiplica una cantidad variable de números ingresados por el usuario.
+
+9. **Información personal con `**kwargs`**  
+   Permite ingresar y mostrar información personal en formato clave-valor (por ejemplo: nombre, edad, dirección).
+
+10. **Calculadora flexible**  
+    Realiza operaciones matemáticas (suma, resta, multiplicación o división) entre dos números ingresados.
