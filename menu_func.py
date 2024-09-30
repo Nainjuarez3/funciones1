@@ -3,7 +3,7 @@ import streamlit as st
 def saludar(nombre):
     return f"hola {nombre}"
 
-def sumar(n1, n2):
+def sumar(n1:float, n2:float)->float:
     return n1 + n2
 
 def calcular_area_triangulo(altura, base):
